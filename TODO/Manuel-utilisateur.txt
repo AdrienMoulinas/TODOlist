@@ -1,0 +1,61 @@
+Documentation:
+
+    Ce logiciel permet de réaliser une TODOlist assez basique.
+    La navigation dans le programme est guidée, on indique à chaque étape à l'utilisateur ce que le programme attend qu'il saisisse.
+    Les taches sont définies par: Un titre, une description, une date de création, une date de cloture, un avancement, une priorité, des commentaires et un identifiant unique
+    Les différentes fonctionnalités sont:
+        1. Ajouter une tache
+            Pour cela, entrez 1 dans le menu. Ensuite, on vous demandera de renseigner les différents champs de votre tache. 
+            Le logiciel se charge d'assigner la date de création.
+        2.Modifier une tache   
+            Pour cela, entrez 2 dans le menu. La liste des taches possibles s'affiche, choisissez en une. Ensuite, choisissez le champ que vous voulez modifier.
+            Le contenu actuel de ce champ sera affiché et vous pourrez le modifier.
+        3.Afficher la liste des taches existantes
+            Pour cela, entrez 3 dans le menu. 2 modes d'affichage sont proposés: compact et développé. L'affichage compact affiche seulement les titres des taches.
+            L'affichage développé affiche tous les détails des taches.
+        4.Cloturer une tache  
+            Pour cela, entrez 4 dans le menu. Le champ "date de cloture" de votre tache sera rempli par la date actuelle. Si la tache est déjà cloturée, un message
+            d'erreur s'affiche.
+        5.Afficher les taches ayant une certaine propriété.
+            Pour cela, entrez 5 dans le menu. Il vous sera demandé par quel champ vous voulez trier et quel contenu vous chercher. Utilisez ce programme pour afficher
+            les détails d'une tache en particulier, en triant par titre et en renseignant son titre.
+        6.Supprimer une tache
+            Pour cela, entrez 6 dans le menu. Il vous sera demandé le nom de la tache à supprimer.
+        7.Supprimer la TODOlist
+            Pour cela, entrez 7 dans le menu. Il vous sera demandé de confirmer cette opération, car elle est irréversible.
+        8.Quitter la TODOlist
+            Pour cela, entrez 8 dans le menu.
+
+Remarques: Lorsque l'on vous demande d'entrer un chiffre, veuillez à bien saisir "1" et non pas "1 " ou " 1" car cela peut causer des bugs du programme.
+           Lorsque vous avez fini une action, rappuyez sur entree pour revenir au menu.
+
+Exemples d'utilisation:
+
+Pour créer la tache suivante:
+    Titre: Réaliser le projet d'info
+    Description: Créer une todolist
+    Date de création: Tue Mar 31 17:49:42 2020
+    Date de cloture: Tache non cloturée
+    Statut: En cours
+    Avancement: 98%
+    Priorité: haute
+    Commentaires: J'aurais pu faire mieux
+
+Il faut entrer successivement: 1/Réaliser le projet d'info/Créer une todolist/En cours/98%/haute/J'aurais pu faire mieux// (les / représentent un appui sur entrée)
+
+De la même manière on peut créer une autre tache:
+    Titre: Confinement
+    Description: Zoomer toute la journée
+    Date de création: Tue Mar 31 17:49:42 2020
+    Date de cloture: Tache non cloturée
+    Statut: En cours
+    Avancement: 10%
+    Priorité: moyenne
+    Commentaires: Vivement que ce soit fini
+
+Une fois que le confinement sera fini, on pourra:
+    Cloturer la tache : 4/Confinement//
+    Changer le statut à Terminé: 2/Confinement/1/Terminé//
+    Et changer l'avancement à 100%: 2/Confinement/2/100%//
+    Eventuellement supprimer cette tache: 6/Confinement/oui//
+Pour afficher toutes les titres des taches à haute priorité: 5/7/haute/1//

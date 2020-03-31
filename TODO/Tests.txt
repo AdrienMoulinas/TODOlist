@@ -1,0 +1,35 @@
+Pour les "jeux de test", étant donné la structure de mon programme il m'est impossible d'écrire une instruction à entrer pour faire telle ou telle tache.
+Pour lancer le programme, il faut d'abord le compiler avec g++ puis l'exécuter, on arrive dans un menu demandant de renseigner le chiffre correspondant à 
+l'opération que l'on souhaite réaliser. Je présente donc ci dessous des suites de commandes à réaliser pour réaliser plusieurs choses.
+
+
+Exemples d'utilisation:
+
+Pour créer la tache suivante:
+    Titre: Réaliser le projet d'info
+    Description: Créer une todolist
+    Date de création: Tue Mar 31 17:49:42 2020
+    Date de cloture: Tache non cloturée
+    Statut: En cours
+    Avancement: 98%
+    Priorité: haute
+    Commentaires: J'aurais pu faire mieux
+
+Il faut entrer successivement: 1/Réaliser le projet d'info/Créer une todolist/En cours/98%/haute/J'aurais pu faire mieux// (les / représentent un appui sur entrée)
+
+De la même manière on peut créer une autre tache:
+    Titre: Confinement
+    Description: Zoomer toute la journée
+    Date de création: Tue Mar 31 17:49:42 2020
+    Date de cloture: Tache non cloturée
+    Statut: En cours
+    Avancement: 10%
+    Priorité: moyenne
+    Commentaires: Vivement que ce soit fini
+
+Une fois que le confinement sera fini, on pourra:
+    Cloturer la tache : 4/Confinement//
+    Changer le statut à Terminé: 2/Confinement/1/Terminé//
+    Et changer l'avancement à 100%: 2/Confinement/2/100%//
+    Eventuellement supprimer cette tache: 6/Confinement/oui//
+Pour afficher toutes les titres des taches à haute priorité: 5/7/haute/1//
