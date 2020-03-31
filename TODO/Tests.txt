@@ -1,6 +1,9 @@
 Pour les "jeux de test", étant donné la structure de mon programme il m'est impossible d'écrire une instruction à entrer pour faire telle ou telle tache.
 Pour lancer le programme, il faut d'abord le compiler avec g++ puis l'exécuter, on arrive dans un menu demandant de renseigner le chiffre correspondant à 
 l'opération que l'on souhaite réaliser. Je présente donc ci dessous des suites de commandes à réaliser pour réaliser plusieurs choses.
+Aussi, je n'ai pas implémenté la notion de sous-tache par manque de temps et parce que j'aurais aimé faire quelque chose d'interactif plutôt que de faire une n-ième string contenant 
+le nom des sous-taches associées à une tache. Par exemple, une structure d'affichage en arbre qui affiche les taches qui ne dépendent d'aucune autre puis leurs sous-taches et ainsi de 
+suite.
 
 
 Exemples d'utilisation:
